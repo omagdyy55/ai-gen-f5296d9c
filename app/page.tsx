@@ -1,5 +1,7 @@
 import AdminDashboard from './admin-dashboard';
 
-export default function Home() {
+const Page = () => {
   return <AdminDashboard />;
-}
+};
+
+export default Page;
